@@ -1,4 +1,4 @@
-package springhw.beans;
+package springhw.beans1TASK;
 
 public class FactoryBean {
 

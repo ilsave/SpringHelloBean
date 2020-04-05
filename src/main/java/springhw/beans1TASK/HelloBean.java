@@ -1,4 +1,7 @@
-package springhw.beans;
+package springhw.beans1TASK;
+
+import org.springframework.stereotype.Component;
+
 
 public class HelloBean {
 	private String name;

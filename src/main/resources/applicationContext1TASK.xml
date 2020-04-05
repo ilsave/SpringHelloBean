@@ -8,12 +8,12 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <bean id="factory"
-          class="springhw.beans.FactoryBean"
+          class="springhw.beans1TASK.FactoryBean"
           scope="singleton">
     </bean>
 
     <bean id="firstBean"
-          class="springhw.beans.HelloBean"
+          class="springhw.beans1TASK.HelloBean"
           scope="prototype"
           factory-method="createHelloBean"
           factory-bean="factory">
@@ -21,7 +21,7 @@
     </bean>
 
     <bean id="secondBean"
-          class="springhw.beans.Printer"
+          class="springhw.beans1TASK.Printer"
           scope="singleton"
           factory-method="createPrinter"
           factory-bean="factory">

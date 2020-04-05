@@ -3,10 +3,19 @@ package springhw.beans;
 public class HelloBean {
 	private String name;
 
+	HelloBean (){}
 	//Конструктор
 	public HelloBean(String name) {
 		super();
 		this.name = name;
+	}
+
+	public static HelloBean createHelloBean(String name){
+		return new HelloBean(name);
+	}
+
+	public static void print(){
+		System.out.println("hewy!");
 	}
 
 	//Getter

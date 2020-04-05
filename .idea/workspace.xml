@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a0b30cb-e16f-4331-8abc-899ce999dd7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans/FactoryBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/springhw/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springhw/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springhw/beans/HelloBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springhw/beans/HelloBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/springhw/beans/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springhw/beans/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springhw/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springhw/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springhw/beans/HelloBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springhw/beans/HelloBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springhw/beans/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springhw/beans/Printer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +48,8 @@
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="springhw.App" />
       <module name="springBase" />
       <extension name="coverage">
@@ -83,7 +93,12 @@
       <workItem from="1584445940647" duration="998000" />
       <workItem from="1584553439397" duration="1351000" />
       <workItem from="1584581695335" duration="2490000" />
-      <workItem from="1584587541926" duration="924000" />
+      <workItem from="1584587541926" duration="7195000" />
+      <workItem from="1584625243577" duration="4239000" />
+      <workItem from="1584643304946" duration="600000" />
+      <workItem from="1584815884370" duration="704000" />
+      <workItem from="1586021919023" duration="2272000" />
+      <workItem from="1586066656085" duration="751000" />
     </task>
     <servers />
   </component>
@@ -91,37 +106,61 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586023999417">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1586023999417" />
     <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1584554082556">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584554082556" />
+    <state x="376" y="103" key="EnvironmentVariablesDialog" timestamp="1586023985875">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="376" y="103" key="EnvironmentVariablesDialog/0.0.1280.680@0.0.1280.680" timestamp="1586023985875" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1584582035648">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584582035648" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1584554790958">
+    <state width="1237" height="113" key="GridCell.Tab.0.bottom" timestamp="1586067460497">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584554790958" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1584554790958">
+    <state width="1237" height="113" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586067460497" />
+    <state width="1237" height="113" key="GridCell.Tab.0.center" timestamp="1586067460497">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584554790958" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1584554790958">
+    <state width="1237" height="113" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586067460497" />
+    <state width="1237" height="113" key="GridCell.Tab.0.left" timestamp="1586067460496">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584554790958" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1584554790958">
+    <state width="1237" height="113" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586067460496" />
+    <state width="1237" height="113" key="GridCell.Tab.0.right" timestamp="1586067460497">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584554790958" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1584581724444">
+    <state width="1237" height="113" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586067460497" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586025924622">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584581724444" />
-    <state x="91" y="0" key="new project wizard" timestamp="1584583658283">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586025924621" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1586025924621">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1584583658283" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586025924621" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1586025924621">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586025924621" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1586025924621">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586025924621" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1586067033528">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586067033528" />
+    <state x="91" y="0" key="new project wizard" timestamp="1584816587179">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1584816587179" />
   </component>
 </project>

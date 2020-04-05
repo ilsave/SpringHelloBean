@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a0b30cb-e16f-4331-8abc-899ce999dd7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/App2TASK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans2TASK/FactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans2TASK/HelloBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans2TASK/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext2TASK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springBase.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springhw/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springhw/App1TASK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springhw/beans/FactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springhw/beans1TASK/FactoryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springhw/beans/HelloBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springhw/beans1TASK/HelloBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springhw/beans/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springhw/beans1TASK/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext1TASK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springhw/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springhw/beans/FactoryBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springhw/beans/HelloBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springhw/beans/Printer.class" beforeDir="false" />
-    </list>
+    <list default="true" id="7a0b30cb-e16f-4331-8abc-899ce999dd7b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +106,7 @@
       <workItem from="1584643304946" duration="600000" />
       <workItem from="1584815884370" duration="704000" />
       <workItem from="1586021919023" duration="2272000" />
-      <workItem from="1586066656085" duration="2891000" />
+      <workItem from="1586066656085" duration="3488000" />
     </task>
     <servers />
   </component>

@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a0b30cb-e16f-4331-8abc-899ce999dd7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans3TASK/App3TASK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans3TASK/ClassicalMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans3TASK/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans3TASK/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans3TASK/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans3TASK/RapMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans3TASK/RockMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext3TASK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springhw/beans3TASK/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springhw/beans3TASK/MusicPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +124,7 @@
       <workItem from="1584643304946" duration="600000" />
       <workItem from="1584815884370" duration="704000" />
       <workItem from="1586021919023" duration="2272000" />
-      <workItem from="1586066656085" duration="7200000" />
+      <workItem from="1586066656085" duration="7798000" />
     </task>
     <servers />
   </component>

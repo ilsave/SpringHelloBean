@@ -13,10 +13,6 @@ public class HelloBean {
         this.name = name;
     }
 
-    public static springhw.beans1TASK.HelloBean createHelloBean(String name){
-        return new springhw.beans1TASK.HelloBean(name);
-    }
-
     public static void print(){
         System.out.println("hewy!");
     }

@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a0b30cb-e16f-4331-8abc-899ce999dd7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans4TASK/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans4TASK/DaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans4TASK/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans4TASK/IDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans4TASK/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans4TASK/Passport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springhw/beans4TASK/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext4TASK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springhw/beans3TASK/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springhw/beans3TASK/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springhw/App1TASK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springhw/beans1TASK/App1TASK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springhw/App2TASK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springhw/beans2TASK/App2TASK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springhw/beans2TASK/HelloBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springhw/beans2TASK/HelloBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springhw/App1TASK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springhw/App2TASK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springhw/beans2TASK/HelloBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springhw/beans2TASK/HelloBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springhw/beans3TASK/MusicPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springhw/beans3TASK/MusicPlayer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +30,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -23,17 +38,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZFrxjRZO83KtjsOAvEbfAdjVlp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/DecoratorTags" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,15 +63,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.App3TASK">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="App1TASK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="12" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="springhw.App1TASK" />
+      <option name="MAIN_CLASS_NAME" value="springhw.beans1TASK.App1TASK" />
       <module name="springBase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="springhw.*" />
+          <option name="PATTERN" value="springhw.beans1TASK.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,11 +80,11 @@
       </method>
     </configuration>
     <configuration name="App2TASK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="springhw.App2TASK" />
+      <option name="MAIN_CLASS_NAME" value="springhw.beans2TASK.App2TASK" />
       <module name="springBase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="springhw.*" />
+          <option name="PATTERN" value="springhw.beans1TASK.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,10 +105,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springhw.beans4TASK.Application" />
+      <module name="springBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springhw.beans4TASK.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App3TASK" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.App2TASK" />
+        <item itemvalue="Application.App3TASK" />
         <item itemvalue="Application.App1TASK" />
       </list>
     </recent_temporary>
@@ -124,12 +157,17 @@
       <workItem from="1584643304946" duration="600000" />
       <workItem from="1584815884370" duration="704000" />
       <workItem from="1586021919023" duration="2272000" />
-      <workItem from="1586066656085" duration="7798000" />
+      <workItem from="1586066656085" duration="14846000" />
+      <workItem from="1586160284661" duration="4024000" />
+      <workItem from="1586161819932" duration="3113000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Project_Structure" timestamp="1586070397980">
@@ -144,30 +182,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586086859364" />
+    <state x="438" y="226" width="404" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586164490817">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="438" y="226" width="404" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1586164490817" />
     <state x="376" y="103" key="EnvironmentVariablesDialog" timestamp="1586023985875">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="376" y="103" key="EnvironmentVariablesDialog/0.0.1280.680@0.0.1280.680" timestamp="1586023985875" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1586076896967">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1586165526075">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586076896967" />
-    <state width="1237" height="139" key="GridCell.Tab.0.bottom" timestamp="1586087508793">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586165526075" />
+    <state width="1237" height="267" key="GridCell.Tab.0.bottom" timestamp="1586162564466">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586087508793" />
-    <state width="1237" height="139" key="GridCell.Tab.0.center" timestamp="1586087508793">
+    <state width="1237" height="267" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586162564466" />
+    <state width="1237" height="267" key="GridCell.Tab.0.center" timestamp="1586162564466">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586087508793" />
-    <state width="1237" height="139" key="GridCell.Tab.0.left" timestamp="1586087508793">
+    <state width="1237" height="267" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586162564466" />
+    <state width="1237" height="267" key="GridCell.Tab.0.left" timestamp="1586162564465">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586087508793" />
-    <state width="1237" height="139" key="GridCell.Tab.0.right" timestamp="1586087508793">
+    <state width="1237" height="267" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586162564465" />
+    <state width="1237" height="267" key="GridCell.Tab.0.right" timestamp="1586162564466">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586087508793" />
+    <state width="1237" height="267" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586162564466" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586025924622">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -184,13 +226,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586025924621" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1586067033528">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1586161826181">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586067033528" />
-    <state x="91" y="0" key="new project wizard" timestamp="1584816587179">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586161826181" />
+    <state x="91" y="0" key="new project wizard" timestamp="1586160497478">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1584816587179" />
+    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1586160497478" />
   </component>
 </project>

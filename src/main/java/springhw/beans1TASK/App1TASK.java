@@ -1,4 +1,4 @@
-package springhw;
+package springhw.beans1TASK;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import springhw.beans1TASK.HelloBean;
